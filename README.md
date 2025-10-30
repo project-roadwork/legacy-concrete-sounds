@@ -1,4 +1,4 @@
-# Legacy Concrete Sounds
+# Legacy Concrete Sounds (LGS)
 
 **Legacy Concrete Sounds (LGS) is a client-sided script tailored towards simplicity that is meant to imitate concrete 
 pavement sounds in real life when a vehicle is moving or when a tire is moving
