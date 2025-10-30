@@ -17,7 +17,7 @@ under the `Plugins` folder.
 2. In order to make this script work for your needs, **you MUST add a model
 named `Sensor` under `car.Body` and a part named `Sensor1` under the model
 with collisions off. Ensure that you have `Sensor1.CanQuery` and
-`Sensor1.CanTouch` enabled in properties. 
+`Sensor1.CanTouch` enabled in properties.** 
 
 3. The sensor must be placed in the
 front of the vehicle adjacent to the lower bumper with half ot the part 
