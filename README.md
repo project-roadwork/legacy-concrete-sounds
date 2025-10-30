@@ -38,7 +38,7 @@ respective sounds and volume tables.*
 2. *You may expand the number of sounds this script can handle by modifiying the respective `sound` and `volume` tables.*
 
 ### C. OTHER NOTES
-1. **This script DOES NOT provide server-sided replication,** so ONLY the local
+1. **This script DOES NOT provide server-sided replication right now,** so ONLY the local
 player can hear the sounds. Should you wish to add server-side replication,
 *assistance is provided in the `"C. SERVER REPLICATION"` section  in the script near line 180.*
 
