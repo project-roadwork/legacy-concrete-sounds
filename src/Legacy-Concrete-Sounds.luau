@@ -8,9 +8,9 @@ local ProjectRoadworkHeader = [[--[LEGACY-CONCRETE-SOUNDS]----------------------
   LANGUAGE:         Luau
   
   GROUP:            Project Roadwork
-  VERSION:          0.2.0-alpha
+  VERSION:          0.2.1-alpha
   CREATED:          2025-10-29 11:31 PM CDT  
-  LAST UPDATED:     2025-10-30 1:31 AM CDT   
+  LAST UPDATED:     2025-10-30 1:50 AM CDT   
   LICENSE:          MPL-2.0
 
   CODEBERG REPO:    https://codeberg.org/project-roadwork/legacy-concrete-sounds (!!!MAIN!!!)
@@ -29,7 +29,7 @@ local ProjectRoadworkHeader = [[--[LEGACY-CONCRETE-SOUNDS]----------------------
   script, great job! You may be happy for what you did; however, you may soon figure
   out that this script is actually open source. By decompiling this script,
   you miss out on clarified variables, comments, and steps on how to actually use
-  this software. Probably it is better to get this script from source right?
+  this software. It is much easier (and cleaner) to get it from the source!
   
   AUTHORS:
    Illinois_Roadbuff (2653606809) - October 29th, 2025 - Created the file
