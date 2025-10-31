@@ -46,7 +46,18 @@ player can hear the sounds. Should you wish to add server-side replication,
 
 
 ### D. LICENSE
-This software is licensed under the Mozilla Public License 2.0, which is an open source license.
+This software is licensed under the Mozilla Public License 2.0, which is an open source license. 
+
+#### License Comparison (not legal advice)
+
+| Feature / License        | Expact (aka "MIT")    | Apache 2.0 | MPL 2.0       | GPL / AGPL v3               |
+| ------------------------ | ------ | ---------- | ------------- | ------------------------ |
+| **Permissive**           | ✅      | ✅          | ℹ️ Partial    | ❌                        |
+| **Patent Clause**         | ❌      | ✅          | ✅             | ✅                        |
+| **Proprietary Use OK**   | ✅      | ✅          | ✅¹           | ❌  (Must release whole source)                       |
+| **Roblox Asset Usage**   | ✅      | ✅          | ℹ️ Depends; must share any changes    | ❌ May violate terms      |
+
+* ¹ Proprietary use in MPL is permitted (allowed) as long as the MPL-covered files remain open souce.
 
 ### E. CONTRIBUTIONS
 All contributions are welcome!
