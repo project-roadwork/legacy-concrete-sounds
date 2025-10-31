@@ -6,6 +6,12 @@ along a concrete paved surface.**
 
 *An advanced version of concrete sounds will be developed some time in the future.*
 
+**(ℹ️ MAIN) CODEBERG REPO:** https://codeberg.org/project-roadwork/legacy-concrete-sounds
+
+**(❌ MIRRORED/BACKUP) GITHUB REPO:** https://github.com/project-roadwork/legacy-concrete-sounds
+
+***Please use the main repository especially with contributions!*** *Additionally, please **DO NOT** make any changes in the mirrored repository as it cannot be pulled into the main repo.*
+
 ---
 
 ### A. PREREQUISITES
