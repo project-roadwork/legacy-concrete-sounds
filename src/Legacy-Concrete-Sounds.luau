@@ -8,9 +8,9 @@ local ProjectRoadworkHeader = [[--[LEGACY-CONCRETE-SOUNDS]----------------------
   LANGUAGE:         Luau
   
   GROUP:            Project Roadwork
-  VERSION:          0.2.1-alpha
+  VERSION:          0.2.2-alpha
   CREATED:          2025-10-29 11:31 PM CDT  
-  LAST UPDATED:     2025-10-30 1:50 AM CDT   
+  LAST UPDATED:     2025-10-30 9:42 PM CDT   
   LICENSE:          MPL-2.0
 
   CODEBERG REPO:    https://codeberg.org/project-roadwork/legacy-concrete-sounds (!!!MAIN!!!)
@@ -103,7 +103,7 @@ local ProjectRoadworkHeader = [[--[LEGACY-CONCRETE-SOUNDS]----------------------
 task.wait(1) -- delay
 
 -- VARIABLES
-local version = "0.2.0-alpha"
+local version = "0.2.2-alpha"
 local car = script.Parent.Car.Value
 local seat = car:WaitForChild("DriveSeat")
 local sensorModel = car.Body:WaitForChild("Sensor")
@@ -165,9 +165,10 @@ local function Loop()
 
 			if mat == Enum.Material.Concrete then -- checks if part is concrete
 				if color == Color3.fromRGB(217, 169, 135) then -- assign sound for part color
-
 					volumes.Concrete2 = 5.5
 					volumes.Concrete3 = 1.5 -- you can have multiple sounds playing at the same time
+				elseif color == Color3.fromRGB(163, 162, 165) then
+					volumes.Concrete3 = 1.5 
 				else
 					volumes.Concrete1 = 0.7 -- default concrete sound if no color assignment
 				end
@@ -176,7 +177,9 @@ local function Loop()
 
 		-- get speed and pitch
 		local speed = seat.AssemblyLinearVelocity.Magnitude
-		local pitchBase = (speed / 100) + 0.02 -- adjust if needed
+		
+		local mph = speed * 0.28 * 2.23694
+		local pitchBase = mph / 60 -- 60 MPH; set it to what speed the concrete sound was recored on
 
 	--[[C. SERVER REPLICATION:
 		If you want the sounds to be sent to the server so that 
