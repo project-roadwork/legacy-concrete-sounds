@@ -25,7 +25,9 @@ touching the ground.**
 	 
 4. **You must have at least THREE concrete sounds named "Concrete1",
 "Concrete2", and "Concrete3" which is parented under the DriveSeat.**
-	  
+
+![image](https://codeberg.org/project-roadwork/legacy-concrete-sounds/raw/branch/main/media/LCS-explorer.jpg)
+
 5. Should you continue to be unsuccessful with the script prerequisites, *you 
 may utilize the sample model in the accompanying repository links under 
 /sample if it is provided.*
