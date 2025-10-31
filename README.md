@@ -19,7 +19,7 @@ named `Sensor` under `car.Body` and a part named `Sensor1` under the model
 with collisions off. Ensure that you have `Sensor1.CanQuery` and
 `Sensor1.CanTouch` enabled in properties.** 
 
-3. The sensor must be placed in the
+3. **The sensor must be placed in the
 front of the vehicle adjacent to the lower bumper with half ot the part 
 touching the ground.**
 	 
